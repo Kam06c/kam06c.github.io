@@ -4,37 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
+    <link rel="stylesheet" href="../Mi css.css/css.css">
 </head>
 <body>
     <h1>Formulario</h1>
-    <form method="get">
-        <label for="Nombre">Nombre</label>
-        <Input type="text" id="Nombre" name="Nombre" />
-        <br><br>
 
-        <label for="Correo electronico">Correo electronico</label>
-        <input type="text" id="Direccion" name="Direccion" />
-        <br><br>
+    <div class="estilo-links">
 
-        <label for="Edad">Edad</label>
-        <input type="text" id="Edad" name="Edad" />
-        <br><br>
+        <form method="get">
+            <label for="Nombre">Nombre</label>
+            <Input type="text" id="Nombre" name="Nombre" />
+            <br><br>
+    
+            <label for="Correo electronico">Correo electronico</label>
+            <input type="text" id="Direccion" name="Direccion" />
+            <br><br>
+    
+            <label for="Edad">Edad</label>
+            <input type="text" id="Edad" name="Edad" />
+            <br><br>
+    
+            Femenino<input type="radio" name="Genero" />
+            Masculino<input type="radio" name="Genero" />
+            
+            <br><br>
+    
+            <select name="seleccion">
+                <option value="0">Departamento</option>
+                <option value="1">Bogota</option>
+                <option value="2">Cundinamarca</option>
+    
+            </select>
+    
+            <br><br>
+            <input type="Submit" value="Enviar">
+    
+        </form> 
 
-        Femenino<input type="radio" name="Genero" />
-        Masculino<input type="radio" name="Genero" />
-        
-        <br><br>
-
-        <select name="seleccion">
-            <option value="0">Departamento</option>
-            <option value="1">Bogota</option>
-            <option value="2">Cundinamarca</option>
-
-        </select>
-
-        <br><br>
-        <input type="Submit" value="Enviar">
-
-    </form> 
+    </div>
+   
 </body>
 </html>
