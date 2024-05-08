@@ -1,6 +1,5 @@
 body{
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif; 
     background: linear-gradient(to right, rgb(217, 167, 199), rgb(255, 252, 220));
     clear: both;
     text-align: center;
@@ -34,7 +33,10 @@ header h1{
 
   
 .fin{
+    background-image: linear-gradient(to right, rgb(255, 175, 189), rgb(255, 195, 160));
+    padding: 10px;
     text-align: center;
+    bottom: 07px;
 }
 
 .redsocial{
@@ -59,20 +61,4 @@ header h1{
     margin: 10px; 
 }
 
-.estilo-links {
-    text-align: center;
-}
-
-.estilo-links ul {
-    list-style-type: none; 
-    padding: 10px; 
-    text-decoration: none;
-    margin: 0;
-    
-}
-
-.estilo-links ul li {
-    display: block; 
-    margin: 0; 
-}
 
